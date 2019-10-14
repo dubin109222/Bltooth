@@ -1,0 +1,16 @@
+PODS:
+  - BltoothSDK (0.1.0)
+
+DEPENDENCIES:
+  - BltoothSDK (from `../`)
+
+EXTERNAL SOURCES:
+  BltoothSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BltoothSDK: c9edbbe36254e3ea4ebf58d5cd00c72385bd5b52
+
+PODFILE CHECKSUM: 972004670cd48970df9d024b89233a2aac025f26
+
+COCOAPODS: 1.8.3

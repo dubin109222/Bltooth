@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EE9E0493DC15AB332994A445DD66E38 /* Pods-BltoothSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC91CD9ABDABD9C84AF8EF847064A5C7 /* Pods-BltoothSDK_Example-dummy.m */; };
+		0F683866D5E1CFC430A97D70CB90F384 /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = CCDC88A34875A3F5DC06B35F1918EA60 /* CodeDirectory */; };
+		130AB507FF5233DAB40359B89C740338 /* BltoothSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F94C6BF96B8E2B34B0BF3F38ED0AECF9 /* BltoothSDK-dummy.m */; };
+		15440CE7B09D1AF1EC3B6DFBAAC1A032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3A1DD005EE5458DB1228B454143A59D7 /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = 30B96323A7CBEA6A4D4E3919B9AA3E23 /* CodeSignature */; };
+		3B22D0F8654274E50BAFA945B8964068 /* CodeRequirements-1 in Sources */ = {isa = PBXBuildFile; fileRef = 1E4109C5D81D8B7EE36343246B1A0F1E /* CodeRequirements-1 */; };
+		45526B9ABBE45A4BBD57B47EE3F24959 /* BraceletSDK in Sources */ = {isa = PBXBuildFile; fileRef = 43728C96C5BB32BE02FE6D23FB4A739C /* BraceletSDK */; };
+		4699DDEF1F62569281E0879133297211 /* Pods-BltoothSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7A44DD780A9D20872EAE3C9FD83281 /* Pods-BltoothSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50BCEE667E695D66C031BF8F0ED55105 /* BltoothSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F89872CE8E1D84AFF526072DDF43897F /* BltoothSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A1E4EB6462E7927924E3EAED781727 /* Pods-BltoothSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 740509A77FD697D95754D6FEC68B0761 /* Pods-BltoothSDK_Tests-dummy.m */; };
+		8260C1F66E92038F98DF33C9BDFA187C /* SingletonBLE.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF7E81C02333A24D7289EF0BC6F89FC /* SingletonBLE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		865FB04426792352B1A7375C5C021629 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BE2DEE91E513CD3524E0518EEAF86 /* CodeResources */; };
+		9D3C37131A8E23353C6F266846FC5FAC /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = F45C2489BA6BFCA21D236F4527DDD68C /* CodeRequirements */; };
+		B1914985D94E1BE23FB9B9FBBCD180EB /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC797E95B7E869767D18E8277AA93A /* Info.plist */; };
+		B859D77CC1B8142251D8F2AA3298CF4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CF4E297CF9B4E8C4267E8283462BB825 /* Pods-BltoothSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F974A95C5D12E76B009F6881D57D1DE7 /* Pods-BltoothSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70B4DF0FB6B33935724D1C801E56EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57086A73A79C74206854CA7BDFF61EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D088E7959F8C7FEC0B15282056B08001;
+			remoteInfo = "Pods-BltoothSDK_Example";
+		};
+		764DA48B06CFA0FE37857EB9A0CDAF09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A06B72675A7744FB9689A1F63337389C;
+			remoteInfo = BltoothSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F731C578CC307D85C041074B739947 /* Pods-BltoothSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BltoothSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17BE796EAB5009F3BDDEC59CB6B6717F /* Pods-BltoothSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BltoothSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E4109C5D81D8B7EE36343246B1A0F1E /* CodeRequirements-1 */ = {isa = PBXFileReference; includeInIndex = 1; path = "CodeRequirements-1"; sourceTree = "<group>"; };
+		20AF4BB46D2FBA510B53F52812D888F0 /* Pods-BltoothSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BltoothSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		29C26F2A32C1F580368C7AF3EF506B0A /* Pods-BltoothSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BltoothSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2FA25A0961ED8BCCB2A8A47D86FD4866 /* Pods-BltoothSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BltoothSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		30B96323A7CBEA6A4D4E3919B9AA3E23 /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeSignature; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34445BDE5A9F6BEDB87349596D11E674 /* Pods_BltoothSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BltoothSDK_Tests.framework; path = "Pods-BltoothSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3670BEA5575467F6764EC8C380358E44 /* BltoothSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BltoothSDK-Info.plist"; sourceTree = "<group>"; };
+		407E9DCD3EF4E3B26B182344D5B0D17F /* BltoothSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BltoothSDK.xcconfig; sourceTree = "<group>"; };
+		43728C96C5BB32BE02FE6D23FB4A739C /* BraceletSDK */ = {isa = PBXFileReference; includeInIndex = 1; name = BraceletSDK; path = BltoothSDK/Classes/BraceletSDK.framework/BraceletSDK; sourceTree = "<group>"; };
+		49DDF61CDF37B75D9877F00D341A04CE /* Pods_BltoothSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BltoothSDK_Example.framework; path = "Pods-BltoothSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBC797E95B7E869767D18E8277AA93A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = BltoothSDK/Classes/BraceletSDK.framework/Info.plist; sourceTree = "<group>"; };
+		4D6BE2DEE91E513CD3524E0518EEAF86 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
+		51CE3AF1773A0892A22BD5D341ADDE86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		52696295460E386121662269DF95582D /* Pods-BltoothSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BltoothSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AF7E81C02333A24D7289EF0BC6F89FC /* SingletonBLE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SingletonBLE.h; sourceTree = "<group>"; };
+		5D78F482585FE29B68150116DA5397A6 /* Pods-BltoothSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BltoothSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		740509A77FD697D95754D6FEC68B0761 /* Pods-BltoothSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BltoothSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		7C30FEBFA1D7F80CE64E9A8714C9875E /* Pods-BltoothSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BltoothSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8D7A44DD780A9D20872EAE3C9FD83281 /* Pods-BltoothSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BltoothSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7C682010937455B9E0463BD1E4FED9C /* Pods-BltoothSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BltoothSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AA46D9D35EAE5F8FA403DF2A2AB37E78 /* BltoothSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BltoothSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B79F18C5326DD64E0BCB077388DAFED5 /* BltoothSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BltoothSDK-prefix.pch"; sourceTree = "<group>"; };
+		C23E45779089A739C68AAD4CBB42F0D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C609414B52417CDD2FEE80D8E47278BC /* Pods-BltoothSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BltoothSDK_Example.modulemap"; sourceTree = "<group>"; };
+		C71102488C27929E5145AFB877C42398 /* Pods-BltoothSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BltoothSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		CCDC88A34875A3F5DC06B35F1918EA60 /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeDirectory; sourceTree = "<group>"; };
+		D0AC356E49CEFFA8B61581A9102AA7BE /* Pods-BltoothSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BltoothSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D16658ED885F0CEBCDC953895A0E0048 /* BltoothSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BltoothSDK.framework; path = BltoothSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15B375DB4CACA34A44E18D0DA86E9A7 /* Pods-BltoothSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BltoothSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		F45C2489BA6BFCA21D236F4527DDD68C /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeRequirements; sourceTree = "<group>"; };
+		F52185DF0DB6DC492B23A45202E841A0 /* BltoothSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BltoothSDK.modulemap; sourceTree = "<group>"; };
+		F89872CE8E1D84AFF526072DDF43897F /* BltoothSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BltoothSDK-umbrella.h"; sourceTree = "<group>"; };
+		F94C6BF96B8E2B34B0BF3F38ED0AECF9 /* BltoothSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BltoothSDK-dummy.m"; sourceTree = "<group>"; };
+		F974A95C5D12E76B009F6881D57D1DE7 /* Pods-BltoothSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BltoothSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		FC91CD9ABDABD9C84AF8EF847064A5C7 /* Pods-BltoothSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BltoothSDK_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9023A9EDA3374634DAF1B22C0522B792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70B4DF0FB6B33935724D1C801E56EEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968FC2E9B33911ECD9016A6FBCCBED40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15440CE7B09D1AF1EC3B6DFBAAC1A032 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C04B3FE9D0AFED72FD31824E293AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B859D77CC1B8142251D8F2AA3298CF4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0207C6AB0F996C991B3DEFB5B3CB737F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F52185DF0DB6DC492B23A45202E841A0 /* BltoothSDK.modulemap */,
+				407E9DCD3EF4E3B26B182344D5B0D17F /* BltoothSDK.xcconfig */,
+				F94C6BF96B8E2B34B0BF3F38ED0AECF9 /* BltoothSDK-dummy.m */,
+				3670BEA5575467F6764EC8C380358E44 /* BltoothSDK-Info.plist */,
+				B79F18C5326DD64E0BCB077388DAFED5 /* BltoothSDK-prefix.pch */,
+				F89872CE8E1D84AFF526072DDF43897F /* BltoothSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BltoothSDK";
+			sourceTree = "<group>";
+		};
+		061DA8C572A1A58B84F6719CAF0BF38B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D16658ED885F0CEBCDC953895A0E0048 /* BltoothSDK.framework */,
+				49DDF61CDF37B75D9877F00D341A04CE /* Pods_BltoothSDK_Example.framework */,
+				34445BDE5A9F6BEDB87349596D11E674 /* Pods_BltoothSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C257DAA3C9E47306795C2768626C413 /* _CodeSignature */ = {
+			isa = PBXGroup;
+			children = (
+				CCDC88A34875A3F5DC06B35F1918EA60 /* CodeDirectory */,
+				F45C2489BA6BFCA21D236F4527DDD68C /* CodeRequirements */,
+				1E4109C5D81D8B7EE36343246B1A0F1E /* CodeRequirements-1 */,
+				4D6BE2DEE91E513CD3524E0518EEAF86 /* CodeResources */,
+				30B96323A7CBEA6A4D4E3919B9AA3E23 /* CodeSignature */,
+			);
+			name = _CodeSignature;
+			path = BltoothSDK/Classes/BraceletSDK.framework/_CodeSignature;
+			sourceTree = "<group>";
+		};
+		744C64FCB51968AEB7E3E63860D18D45 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7E81C02333A24D7289EF0BC6F89FC /* SingletonBLE.h */,
+			);
+			name = Headers;
+			path = BltoothSDK/Classes/BraceletSDK.framework/Headers;
+			sourceTree = "<group>";
+		};
+		7D97B70CD6786965832130CB71AAB3D5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7E68BE67DD9E81FFABE8A32E264BE20 /* Pods-BltoothSDK_Example */,
+				F8FB078054AC15D877E4B58D9D9AAB3F /* Pods-BltoothSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A841FF28CF25FB46204A0CD21C2DCDCD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AA46D9D35EAE5F8FA403DF2A2AB37E78 /* BltoothSDK.podspec */,
+				51CE3AF1773A0892A22BD5D341ADDE86 /* LICENSE */,
+				C23E45779089A739C68AAD4CBB42F0D6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E2685848B7989D492638977E6C49AD74 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				061DA8C572A1A58B84F6719CAF0BF38B /* Products */,
+				7D97B70CD6786965832130CB71AAB3D5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2685848B7989D492638977E6C49AD74 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDAD84F51B842C6A59B7105986C987 /* BltoothSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E7E68BE67DD9E81FFABE8A32E264BE20 /* Pods-BltoothSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C609414B52417CDD2FEE80D8E47278BC /* Pods-BltoothSDK_Example.modulemap */,
+				09F731C578CC307D85C041074B739947 /* Pods-BltoothSDK_Example-acknowledgements.markdown */,
+				17BE796EAB5009F3BDDEC59CB6B6717F /* Pods-BltoothSDK_Example-acknowledgements.plist */,
+				FC91CD9ABDABD9C84AF8EF847064A5C7 /* Pods-BltoothSDK_Example-dummy.m */,
+				7C30FEBFA1D7F80CE64E9A8714C9875E /* Pods-BltoothSDK_Example-frameworks.sh */,
+				F15B375DB4CACA34A44E18D0DA86E9A7 /* Pods-BltoothSDK_Example-Info.plist */,
+				F974A95C5D12E76B009F6881D57D1DE7 /* Pods-BltoothSDK_Example-umbrella.h */,
+				29C26F2A32C1F580368C7AF3EF506B0A /* Pods-BltoothSDK_Example.debug.xcconfig */,
+				D0AC356E49CEFFA8B61581A9102AA7BE /* Pods-BltoothSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-BltoothSDK_Example";
+			path = "Target Support Files/Pods-BltoothSDK_Example";
+			sourceTree = "<group>";
+		};
+		F4FDAD84F51B842C6A59B7105986C987 /* BltoothSDK */ = {
+			isa = PBXGroup;
+			children = (
+				43728C96C5BB32BE02FE6D23FB4A739C /* BraceletSDK */,
+				4CBC797E95B7E869767D18E8277AA93A /* Info.plist */,
+				4C257DAA3C9E47306795C2768626C413 /* _CodeSignature */,
+				744C64FCB51968AEB7E3E63860D18D45 /* Headers */,
+				A841FF28CF25FB46204A0CD21C2DCDCD /* Pod */,
+				0207C6AB0F996C991B3DEFB5B3CB737F /* Support Files */,
+			);
+			name = BltoothSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F8FB078054AC15D877E4B58D9D9AAB3F /* Pods-BltoothSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C71102488C27929E5145AFB877C42398 /* Pods-BltoothSDK_Tests.modulemap */,
+				52696295460E386121662269DF95582D /* Pods-BltoothSDK_Tests-acknowledgements.markdown */,
+				20AF4BB46D2FBA510B53F52812D888F0 /* Pods-BltoothSDK_Tests-acknowledgements.plist */,
+				740509A77FD697D95754D6FEC68B0761 /* Pods-BltoothSDK_Tests-dummy.m */,
+				5D78F482585FE29B68150116DA5397A6 /* Pods-BltoothSDK_Tests-Info.plist */,
+				8D7A44DD780A9D20872EAE3C9FD83281 /* Pods-BltoothSDK_Tests-umbrella.h */,
+				2FA25A0961ED8BCCB2A8A47D86FD4866 /* Pods-BltoothSDK_Tests.debug.xcconfig */,
+				A7C682010937455B9E0463BD1E4FED9C /* Pods-BltoothSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-BltoothSDK_Tests";
+			path = "Target Support Files/Pods-BltoothSDK_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		138E5A988FCD425CD80CC68D192F9EB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BCEE667E695D66C031BF8F0ED55105 /* BltoothSDK-umbrella.h in Headers */,
+				8260C1F66E92038F98DF33C9BDFA187C /* SingletonBLE.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3504B309B1E79568A88AED0349AD3620 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4E297CF9B4E8C4267E8283462BB825 /* Pods-BltoothSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C90D37DD7C10E760FDFFE8D6404318 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4699DDEF1F62569281E0879133297211 /* Pods-BltoothSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A06B72675A7744FB9689A1F63337389C /* BltoothSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23176A851FBD95633818E2A36187E7A6 /* Build configuration list for PBXNativeTarget "BltoothSDK" */;
+			buildPhases = (
+				138E5A988FCD425CD80CC68D192F9EB6 /* Headers */,
+				8E56F86607D4F161086160C6EF96A548 /* Sources */,
+				9023A9EDA3374634DAF1B22C0522B792 /* Frameworks */,
+				C31FA21C30C97C44737E0A956E1BB397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BltoothSDK;
+			productName = BltoothSDK;
+			productReference = D16658ED885F0CEBCDC953895A0E0048 /* BltoothSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D088E7959F8C7FEC0B15282056B08001 /* Pods-BltoothSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DB1B04D89D5591A3C3D64DD2CC908E /* Build configuration list for PBXNativeTarget "Pods-BltoothSDK_Example" */;
+			buildPhases = (
+				3504B309B1E79568A88AED0349AD3620 /* Headers */,
+				03CA3804458D865582A6B5619C676C1E /* Sources */,
+				968FC2E9B33911ECD9016A6FBCCBED40 /* Frameworks */,
+				C5A123744792A4D6107AD77DAA39E972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B84280A63B3F6906FC24AFD04DF42BD3 /* PBXTargetDependency */,
+			);
+			name = "Pods-BltoothSDK_Example";
+			productName = "Pods-BltoothSDK_Example";
+			productReference = 49DDF61CDF37B75D9877F00D341A04CE /* Pods_BltoothSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA70BE2FF385133C0DC9D18B853B1ED3 /* Pods-BltoothSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB82C2117A181030335141E09CE3F9E /* Build configuration list for PBXNativeTarget "Pods-BltoothSDK_Tests" */;
+			buildPhases = (
+				F3C90D37DD7C10E760FDFFE8D6404318 /* Headers */,
+				D663118EDFC6D4ED39E25B7CB9959A26 /* Sources */,
+				D5C04B3FE9D0AFED72FD31824E293AD6 /* Frameworks */,
+				3B9363F80128BCA8F25C5386F09A4989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F70FA3B6CF92A7FF3F30483C87FE6C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BltoothSDK_Tests";
+			productName = "Pods-BltoothSDK_Tests";
+			productReference = 34445BDE5A9F6BEDB87349596D11E674 /* Pods_BltoothSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 061DA8C572A1A58B84F6719CAF0BF38B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A06B72675A7744FB9689A1F63337389C /* BltoothSDK */,
+				D088E7959F8C7FEC0B15282056B08001 /* Pods-BltoothSDK_Example */,
+				EA70BE2FF385133C0DC9D18B853B1ED3 /* Pods-BltoothSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B9363F80128BCA8F25C5386F09A4989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31FA21C30C97C44737E0A956E1BB397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A123744792A4D6107AD77DAA39E972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03CA3804458D865582A6B5619C676C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE9E0493DC15AB332994A445DD66E38 /* Pods-BltoothSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E56F86607D4F161086160C6EF96A548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130AB507FF5233DAB40359B89C740338 /* BltoothSDK-dummy.m in Sources */,
+				45526B9ABBE45A4BBD57B47EE3F24959 /* BraceletSDK in Sources */,
+				0F683866D5E1CFC430A97D70CB90F384 /* CodeDirectory in Sources */,
+				9D3C37131A8E23353C6F266846FC5FAC /* CodeRequirements in Sources */,
+				3B22D0F8654274E50BAFA945B8964068 /* CodeRequirements-1 in Sources */,
+				865FB04426792352B1A7375C5C021629 /* CodeResources in Sources */,
+				3A1DD005EE5458DB1228B454143A59D7 /* CodeSignature in Sources */,
+				B1914985D94E1BE23FB9B9FBBCD180EB /* Info.plist in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D663118EDFC6D4ED39E25B7CB9959A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A1E4EB6462E7927924E3EAED781727 /* Pods-BltoothSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F70FA3B6CF92A7FF3F30483C87FE6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BltoothSDK_Example";
+			target = D088E7959F8C7FEC0B15282056B08001 /* Pods-BltoothSDK_Example */;
+			targetProxy = 57086A73A79C74206854CA7BDFF61EE7 /* PBXContainerItemProxy */;
+		};
+		B84280A63B3F6906FC24AFD04DF42BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BltoothSDK;
+			target = A06B72675A7744FB9689A1F63337389C /* BltoothSDK */;
+			targetProxy = 764DA48B06CFA0FE37857EB9A0CDAF09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		59F790FBA3416E00ECC65E3FD95B0D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407E9DCD3EF4E3B26B182344D5B0D17F /* BltoothSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BltoothSDK/BltoothSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BltoothSDK/BltoothSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BltoothSDK/BltoothSDK.modulemap";
+				PRODUCT_MODULE_NAME = BltoothSDK;
+				PRODUCT_NAME = BltoothSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72A5A0817B11C9B432B7B79DC92CA57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C682010937455B9E0463BD1E4FED9C /* Pods-BltoothSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BltoothSDK_Tests/Pods-BltoothSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BltoothSDK_Tests/Pods-BltoothSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		740E0043EC0D305F25C1C4D13F44C850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407E9DCD3EF4E3B26B182344D5B0D17F /* BltoothSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BltoothSDK/BltoothSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BltoothSDK/BltoothSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BltoothSDK/BltoothSDK.modulemap";
+				PRODUCT_MODULE_NAME = BltoothSDK;
+				PRODUCT_NAME = BltoothSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		82D31CC31A91277C259B45FB34D9814D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA25A0961ED8BCCB2A8A47D86FD4866 /* Pods-BltoothSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BltoothSDK_Tests/Pods-BltoothSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BltoothSDK_Tests/Pods-BltoothSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAFC65EB6A4B79E1DF4496911DCDBCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29C26F2A32C1F580368C7AF3EF506B0A /* Pods-BltoothSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BltoothSDK_Example/Pods-BltoothSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BltoothSDK_Example/Pods-BltoothSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA99C5464F4023CD1E73ED3DF72E1C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0AC356E49CEFFA8B61581A9102AA7BE /* Pods-BltoothSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BltoothSDK_Example/Pods-BltoothSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BltoothSDK_Example/Pods-BltoothSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23176A851FBD95633818E2A36187E7A6 /* Build configuration list for PBXNativeTarget "BltoothSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F790FBA3416E00ECC65E3FD95B0D5B /* Debug */,
+				740E0043EC0D305F25C1C4D13F44C850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DB1B04D89D5591A3C3D64DD2CC908E /* Build configuration list for PBXNativeTarget "Pods-BltoothSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFC65EB6A4B79E1DF4496911DCDBCD9 /* Debug */,
+				EA99C5464F4023CD1E73ED3DF72E1C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FB82C2117A181030335141E09CE3F9E /* Build configuration list for PBXNativeTarget "Pods-BltoothSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D31CC31A91277C259B45FB34D9814D /* Debug */,
+				72A5A0817B11C9B432B7B79DC92CA57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

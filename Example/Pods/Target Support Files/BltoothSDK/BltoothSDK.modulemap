@@ -1,0 +1,6 @@
+framework module BltoothSDK {
+  umbrella header "BltoothSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

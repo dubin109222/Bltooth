@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		12ED9672E9682FA021B3A9C5 /* Pods-BltoothSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BltoothSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-BltoothSDK_Tests/Pods-BltoothSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		298AC209C3E83881E80D1323 /* BltoothSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BltoothSDK.podspec; path = ../BltoothSDK.podspec; sourceTree = "<group>"; };
+		298AC209C3E83881E80D1323 /* BltoothSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BltoothSDK.podspec; path = ../BltoothSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* BltoothSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BltoothSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1DB19F84CE2E2719FD49177 /* Pods-BltoothSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BltoothSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-BltoothSDK_Example/Pods-BltoothSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A7AF923F8D51218A6E17913F /* Pods-BltoothSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BltoothSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BltoothSDK_Tests/Pods-BltoothSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AEF73E75ED2A981CFEC4A6E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B9060AD8F805BE77010C10F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AEF73E75ED2A981CFEC4A6E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B9060AD8F805BE77010C10F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C82BD62C6C39EF3BAFFF7C11 /* Pods_BltoothSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BltoothSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C5464978F58C196FB6C487 /* Pods-BltoothSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BltoothSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-BltoothSDK_Example/Pods-BltoothSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				A7AF923F8D51218A6E17913F /* Pods-BltoothSDK_Tests.debug.xcconfig */,
 				12ED9672E9682FA021B3A9C5 /* Pods-BltoothSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

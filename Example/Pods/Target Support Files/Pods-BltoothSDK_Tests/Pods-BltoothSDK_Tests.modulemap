@@ -1,0 +1,6 @@
+framework module Pods_BltoothSDK_Tests {
+  umbrella header "Pods-BltoothSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
